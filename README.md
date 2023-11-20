@@ -6,4 +6,11 @@ We provide the designs for the greeting card, and the user just have to put his 
 
 And download it!.
 
+# What did i use?
+
+i used 
+
+- Bootstrap 5
+- html2canvas
+
 ### Demo: https://655bad3a146d5715b675dd38--precious-piroshki-626917.netlify.app/
