@@ -1,17 +1,19 @@
+
 body {
-    background: linear-gradient(90deg, rgba(35,36,35,1) 0%, rgba(11,12,12,1) 100%);
-    background-color: #0b0c0c;
-
-
+    background-image: url('/assets/bg.webp');
+    background-size: cover;
+    /* background: linear-gradient(90deg, rgba(35,36,35,1) 0%, rgba(11,12,12,1) 100%);
+    background-color: #0b0c0c; */
+    font-family: "Tajawal", sans-serif !important;
 }
 
-h1,h2,h3,h4,h5,h6,p,span {
+h1,h2,h3,h4,h5,h6,p {
 color:#ffffff !important; 
 }
 
 #main {
-    background-image: url('/assets/bg-all3.png');
-    background-size: cover;
+    /* background-image: url('/assets/bg.png'); */
+    /* background-size: cover; */
     width: 99vw;
     height: 100vh;
     /* background-position: center, center; */
@@ -26,9 +28,35 @@ color:#ffffff !important;
     width: 500px;
 }
 
-span {
+.img-story {
+    width: 403px;
+    height: 716px ;
+}
+
+#capture-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 403px ;
+    /* border: #ffffff solid 1px; */
+}
+
+
+.span-name {
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 250px;
+    font-weight: 500;
+}
+
+.text-color-blue {
+    color: #599bfc !important ;
+}
+
+.text-color-white {
+    color: #ffffff !important;
 }
 
 #text {
@@ -37,6 +65,7 @@ span {
     justify-content: center;
     margin: 0 auto;
     text-align: center;
+
 }
 /* 
 .card-content {
@@ -59,11 +88,15 @@ span {
 }
 
 
+
+
 .card-content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 
 @media screen and (max-width : 640px) {
@@ -75,21 +108,48 @@ span {
     .img-1 {
         width: 350px;
     }
-    span {
-        font-size : 20px;
+
+    .img-story {
+        width: 351px;
+        height: 624px ;
+    }
+    
+    #capture-story {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 351px ;
+        /* border: #ffffff solid 1px; */
     }
 
-    #main {
-        background-image: url('/assets/bg-all3.png');
+    #span-1 {
+        font-size : 20px;
+        margin-top: 180px ;
+    }
+
+    #span-2 {
+        font-size : 20px;
+        margin-top: 200px ;
+    }
+    
+
+    /* #main {
+        background-image: url('/assets/bg.png');
         background-repeat: no-repeat;
         background-size: cover;
 
         
-    }
+    } */
 
     .main-text {
         font-size:24px ;
         line-height: 35px;
+    }
+
+    #button {
+        margin-bottom: 30px;
     }
 
 }
