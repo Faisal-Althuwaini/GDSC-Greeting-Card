@@ -148,3 +148,8 @@ function myfunc(){
 //         });
 //     });
 // };
+
+// // pre loader 
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("loader").style.visibility = 'hidden'
+}, false);
