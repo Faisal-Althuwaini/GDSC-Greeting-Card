@@ -13,4 +13,4 @@ i used
 - Bootstrap 5
 - html2canvas
 
-### Demo: https://gdsc-uoh-greeting.netlify.app/
+### Link: https://gdsc-uoh-greeting.netlify.app/
